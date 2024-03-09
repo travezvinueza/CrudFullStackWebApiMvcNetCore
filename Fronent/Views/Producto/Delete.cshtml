@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Eliminar Producto";
+}
+@model Fronent.Models.Producto
+
+<div class="container">
+    <div class="text-center mt-4">
+        <h2>Confirmar eliminación</h2>
+    </div>
+
+    <div class="text-center mt-4">
+        <img src="http://localhost:5202/@Model.Ruta" style="width: 100px; height: 100px; border-radius: 50%;" alt="Imagen del Producto" />
+    </div>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">
+            <label for="Title">Producto</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Name
+        </dd>
+
+        <dt class="col-sm-2">
+            <label for="Price">Precio</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Price
+        </dd>
+
+        <dt class="col-sm-2">
+            <label for="Description">Descripción</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Description
+        </dd>
+    </dl>
+
+    <div class="text-end">
+        <form asp-controller="Producto" asp-action="Delete" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+            <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+            <a asp-action="Index" class="btn btn-primary btn-sm">Cancelar</a>
+        </form>
+    </div>
+</div>

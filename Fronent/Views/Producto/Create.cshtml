@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Create";
+}
+@model Fronent.Models.Producto
+
+<div class="row">
+    <div class="text-center">
+        <h2>Crear Nuevo Producto</h2>
+    </div>
+
+    <div class="row">
+        <form asp-controller="Producto" asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Nombre</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label">Precio</label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">Descripcion</label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="File" class="control-label">Cargar Imagen</label>
+                    <input type="file" class="form-control mb-3" name="documento">
+                    <span asp-validation-for="File" class="text-danger"></span>
+                </div>
+
+            </div>
+
+             <button type="submit" class="btn btn-primary btn-sm"><i class="fas fa-save"></i> Guardar</button>
+            <a asp-action="Index" class="btn btn-danger btn-sm"><i class="fas fa-cancel"></i>Cancelar</a>
+
+        </form>
+    </div>
+</div>

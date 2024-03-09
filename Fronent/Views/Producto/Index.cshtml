@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Index";
+}
+@model List<Producto>
+
+
+<div class="text-center">
+    <h2>Lista de productos</h2>
+</div>
+
+<a asp-controller="Producto" asp-action="Create" class="btn btn-success btn-sm"><i class="fas fa-user-plus"></i>Agregar Producto</a>
+<br>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Descripcion</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in Model)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(producto.Ruta))
+                    {
+                        <img src="http://localhost:5202/@producto.Ruta" alt="Imagen del producto"
+                            style="width: 100px; height: 100px; border-radius: 50%;" />
+                    }
+                </td>
+                <td>@producto.Name</td>
+                <td>@producto.Price</td>
+                <td>@producto.Description</td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@producto.Id" class="btn btn-primary btn-sm">
+                        <i class="fa fa-pencil-alt"></i> </a>
+                    <a asp-action="Delete" asp-route-id="@producto.Id" class="btn btn-danger btn-sm">
+                        <i class='fa-solid fa-trash-can'></i> </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

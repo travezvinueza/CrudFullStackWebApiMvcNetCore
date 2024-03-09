@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Edit";
+}
+@model Fronent.Models.Producto
+
+<div class="row">
+    <div class="text-center">
+        <h2>Editar Producto</h2>
+    </div>
+
+    <div class="text-center mt-4">
+        <img src="http://localhost:5202/@Model.Ruta" style="width: 100px; height: 100px; border-radius: 50%;" alt="Imagen del Producto" />
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-controller="Producto" asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="File" class="control-label"></label>
+                    <input type="file" class="form-control mb-3" name="documento">
+                    <span asp-validation-for="File" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-sm"><i class="fas fa-save"></i>Actualizar</button>
+                    <a asp-action="Index" class="btn btn-success btn-sm">Cancelar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
