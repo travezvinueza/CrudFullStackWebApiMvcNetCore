@@ -40,58 +40,58 @@ namespace Fronent.Controllers
             return View();
         }
 
-      [HttpPost]
-[ValidateAntiForgeryToken]
-public async Task<IActionResult> Create(IFormFile documento, Producto producto)
-{
-    try
-    {
-        // Verificar si los campos obligatorios están completos
-        if (string.IsNullOrWhiteSpace(producto.Name) || string.IsNullOrWhiteSpace(producto.Price) || string.IsNullOrWhiteSpace(producto.Description))
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(IFormFile documento, Producto producto)
         {
-            _notifyService.Warning("Por favor, completa todos los campos.");
-            return RedirectToAction("Index"); 
+            try
+            {
+                // Verificar si los campos obligatorios están completos
+                if (string.IsNullOrWhiteSpace(producto.Name) || string.IsNullOrWhiteSpace(producto.Price) || string.IsNullOrWhiteSpace(producto.Description))
+                {
+                    _notifyService.Warning("Por favor, completa todos los campos.");
+                    return RedirectToAction("Index");
+                }
+
+                using (var content = new MultipartFormDataContent())
+                {
+                    content.Add(new StringContent(producto.Name), "Name");
+                    content.Add(new StringContent(producto.Price.ToString()), "Price");
+                    content.Add(new StringContent(producto.Description), "Description");
+
+                    if (documento != null && documento.Length > 0)
+                    {
+                        var filestreamContent = new StreamContent(documento.OpenReadStream());
+                        filestreamContent.Headers.ContentType = new MediaTypeHeaderValue(documento.ContentType);
+
+                        content.Add(filestreamContent, "File", documento.FileName);
+                    }
+
+                    var respuesta = await httpClient.PostAsync("/api/Producto", content);
+
+                    if (respuesta.IsSuccessStatusCode)
+                    {
+                        _notifyService.Success("Producto creado exitosamente");
+                        return RedirectToAction(nameof(Index));
+                    }
+                    else
+                    {
+                        _notifyService.Warning("Hubo un problema al crear el producto. Por favor, intenta nuevamente.");
+                    }
+
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (Exception ex)
+            {
+                _notifyService.Error("Error interno del servidor. Por favor, contacta al administrador.");
+                Console.WriteLine(ex.ToString());
+                return View("Error");
+            }
         }
 
-        using (var content = new MultipartFormDataContent())
-        {
-            content.Add(new StringContent(producto.Name), "Name");
-            content.Add(new StringContent(producto.Price.ToString()), "Price");
-            content.Add(new StringContent(producto.Description), "Description");
 
-            if (documento != null && documento.Length > 0)
-            {
-                var filestreamContent = new StreamContent(documento.OpenReadStream());
-                filestreamContent.Headers.ContentType = new MediaTypeHeaderValue(documento.ContentType);
-
-                content.Add(filestreamContent, "File", documento.FileName);
-            }
-
-            var respuesta = await httpClient.PostAsync("/api/Producto", content);
-
-            if (respuesta.IsSuccessStatusCode)
-            {
-                _notifyService.Success("Producto creado exitosamente");
-                return RedirectToAction(nameof(Index));
-            }
-            else
-            {
-                _notifyService.Warning("Hubo un problema al crear el producto. Por favor, intenta nuevamente.");
-            }
-
-            return RedirectToAction("Index");
-        }
-    }
-    catch (Exception ex)
-    {
-        _notifyService.Error("Error interno del servidor. Por favor, contacta al administrador.");
-        Console.WriteLine(ex.ToString());
-        return View("Error");
-    }
-}
-
-
-         [HttpGet]
+        [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
             try
@@ -122,7 +122,7 @@ public async Task<IActionResult> Create(IFormFile documento, Producto producto)
             {
                 using (var content = new MultipartFormDataContent())
                 {
-                   
+
                     content.Add(new StringContent(producto.Name), "Name");
                     content.Add(new StringContent(producto.Price.ToString()), "Price");
                     content.Add(new StringContent(producto.Description), "Description");
@@ -148,7 +148,7 @@ public async Task<IActionResult> Create(IFormFile documento, Producto producto)
                         _notifyService.Warning("No se pudo guardar la información del producto");
                         return RedirectToAction("Index");
                     }
-                    
+
                 }
             }
             catch (Exception ex)
