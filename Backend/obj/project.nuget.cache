@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nVDTojDXE6bOlQjSuawedEHEKBFf6fFkT5Xkm7fNL5BEgx11Q9E13aleryCqFWxpYFVYr4xjM4qTlv56KFQlAg==",
+  "dgSpecHash": "7FKoCRaNhTkxV59vwrJjCDOVjSLPMKRH1VYip9/xK/FCY43WsRgtF6cTzl8WJrCgGkjOnNJ6sO3ZFiuL8JEMqg==",
   "success": true,
-  "projectFilePath": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mauri\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Mauri\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

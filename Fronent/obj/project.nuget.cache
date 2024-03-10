@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UadlJMaCipkQI8cqfpYzZ8SFB3WJAMCXcLThf9s4JaonAmlsgHT/mO27kZx8Ah/BaP9CnzumVMbtnMzongZlKg==",
+  "dgSpecHash": "BqEbMWTzydLRh3Jygb0lh446vtMBi8xfeCeaCln/Yx7G8znXSN+qTmXJgrHwIFsp+LyFi3O33LB8sfP/TnWLjA==",
   "success": true,
-  "projectFilePath": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\Fronent.csproj",
+  "projectFilePath": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\Fronent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mauri\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\Mauri\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",

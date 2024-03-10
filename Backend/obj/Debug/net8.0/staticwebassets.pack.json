@@ -1,31 +1,19 @@
 {
   "Files": [
     {
-      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\wwwroot\\Uploads\\9040e5d5-8ebb-42c1-aaf3-dd8dd8195888.jpg",
-      "PackagePath": "staticwebassets\\Uploads\\9040e5d5-8ebb-42c1-aaf3-dd8dd8195888.jpg"
-    },
-    {
-      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\wwwroot\\Uploads\\Don_Quijote.png",
+      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\Don_Quijote.png",
       "PackagePath": "staticwebassets\\Uploads\\Don_Quijote.png"
     },
     {
-      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\wwwroot\\Uploads\\Los_tres_mosqueteros.png",
-      "PackagePath": "staticwebassets\\Uploads\\Los_tres_mosqueteros.png"
+      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\Tratado-del-hombre-Rene-Descartes.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Tratado-del-hombre-Rene-Descartes.jpg"
     },
     {
-      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\wwwroot\\Uploads\\anonimus.jpeg",
-      "PackagePath": "staticwebassets\\Uploads\\anonimus.jpeg"
+      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\d671594e-2582-4e2c-add7-dfe1b874948b.png",
+      "PackagePath": "staticwebassets\\Uploads\\d671594e-2582-4e2c-add7-dfe1b874948b.png"
     },
     {
-      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\wwwroot\\Uploads\\logofx.png",
-      "PackagePath": "staticwebassets\\Uploads\\logofx.png"
-    },
-    {
-      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\wwwroot\\Uploads\\ricardo.jpg",
-      "PackagePath": "staticwebassets\\Uploads\\ricardo.jpg"
-    },
-    {
-      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\wwwroot\\Uploads\\usuario2.png",
+      "Id": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\usuario2.png",
       "PackagePath": "staticwebassets\\Uploads\\usuario2.png"
     },
     {

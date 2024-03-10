@@ -35,14 +35,20 @@ namespace Backend.Controllers
             {
                 if (producto.File != null && producto.File.Length > 0)
                 {
-                    var rutaCompleta = Path.Combine(_environment.ContentRootPath, _rutaServidor, producto.File.FileName);
+                    // Construir la ruta relativa dentro de la carpeta wwwroot/Uploads
+                    var rutaRelativa = Path.Combine(_rutaServidor, Path.GetFileName(producto.File.FileName));
 
+                    // Construir la ruta completa para guardar el archivo
+                    var rutaCompleta = Path.Combine(_environment.WebRootPath, rutaRelativa);
+
+                    // Guardar el archivo en la ruta completa
                     using (var fileStream = new FileStream(rutaCompleta, FileMode.Create))
                     {
                         producto.File.CopyTo(fileStream);
                     }
 
-                    producto.Ruta = Path.Combine("Uploads", Path.GetFileName(producto.File.FileName));
+                    // Actualizar la propiedad Ruta en el modelo
+                    producto.Ruta = rutaRelativa;
                     // Reemplazar espacios con guiones bajos en la ruta
                     producto.Ruta = producto.Ruta.Replace(" ", "_");
                 }
@@ -91,13 +97,13 @@ namespace Backend.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Error interno del servidor: {ex.Message}");
             }
         }
+        
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, [FromForm] Producto producto)
         {
             try
             {
-
                 var productoExistente = await _dbContext.Productos.FindAsync(id);
                 if (productoExistente == null)
                 {
@@ -113,14 +119,18 @@ namespace Backend.Controllers
                     // Generar un nombre de archivo único para evitar conflictos
                     var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(producto.File.FileName);
 
-                    var rutaCompleta = Path.Combine(_environment.ContentRootPath, _rutaServidor, nombreArchivo);
+                    // Construir la ruta relativa dentro de la carpeta wwwroot/Uploads
+                    var rutaRelativa = Path.Combine(_rutaServidor, nombreArchivo);
+
+                    // Construir la ruta completa para guardar el archivo
+                    var rutaCompleta = Path.Combine(_environment.WebRootPath, rutaRelativa);
 
                     using (var fileStream = new FileStream(rutaCompleta, FileMode.Create))
                     {
                         producto.File.CopyTo(fileStream);
                     }
 
-                    productoExistente.Ruta = Path.Combine("Uploads", nombreArchivo);
+                    productoExistente.Ruta = rutaRelativa;
                     productoExistente.Ruta = productoExistente.Ruta.Replace(" ", "_");
                 }
 

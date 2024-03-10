@@ -1,5 +1,6 @@
 @{
-    ViewData["Title"] = "Eliminar Producto";
+    ViewData["Title"] = "Delete";
+    Layout = null;
 }
 @model Fronent.Models.Producto
 
@@ -14,31 +15,31 @@
 
     <dl class="row mt-4">
         <dt class="col-sm-2">
-            <label for="Title">Producto</label>
+            <label for="Title">Producto: </label>
         </dt>
         <dd class="col-sm-10">
             @Model.Name
         </dd>
 
         <dt class="col-sm-2">
-            <label for="Price">Precio</label>
+            <label for="Price">Precio:</label>
         </dt>
         <dd class="col-sm-10">
             @Model.Price
         </dd>
 
         <dt class="col-sm-2">
-            <label for="Description">Descripción</label>
+            <label for="Description">Descripción:</label>
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-12">
             @Model.Description
         </dd>
     </dl>
 
     <div class="text-end">
         <form asp-controller="Producto" asp-action="Delete" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
-            <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
-            <a asp-action="Index" class="btn btn-primary btn-sm">Cancelar</a>
+            <button type="submit" class="btn btn-danger btn-sm"><i class='fa-solid fa-trash-can'></i>Eliminar</button>
+            <a asp-action="Index" class="btn btn-secondary btn-sm"><i class="fas fa-cancel"></i>Cancelar</a>
         </form>
     </div>
 </div>

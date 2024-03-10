@@ -4538,11 +4538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\Backend.csproj",
+      "projectPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\Mauri\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\Backend\\obj\\",
+      "outputPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mauri\\AppData\\Roaming\\NuGet\\NuGet.Config"

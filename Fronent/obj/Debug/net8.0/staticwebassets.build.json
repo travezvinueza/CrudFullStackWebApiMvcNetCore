@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PzTV9hn7ebvI4NxUc0b7WeDytDIwzrAwvEhyqKh0Zlg=",
+  "Hash": "TZ9hP9o/3Jh+hn/WTCXD3JpM15ZtxYmkUEl7NhxuMqU=",
   "Source": "Fronent",
   "BasePath": "_content/Fronent",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Fronent\\wwwroot",
       "Source": "Fronent",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fronent.styles.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fronent.styles.css",
       "SourceId": "Fronent",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "Fronent.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fronent.styles.css"
+      "OriginalItemSpec": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fronent.styles.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fronent.bundle.scp.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fronent.bundle.scp.css",
       "SourceId": "Fronent",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "Fronent.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fronent.bundle.scp.css"
+      "OriginalItemSpec": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fronent.bundle.scp.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\css\\site.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\css\\site.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\favicon.ico",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\favicon.ico",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\js\\site.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\js\\showmodal.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
+      "BasePath": "_content/Fronent",
+      "RelativePath": "js/showmodal.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\showmodal.js"
+    },
+    {
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\js\\site.js",
+      "SourceId": "Fronent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -454,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -473,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -492,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -511,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -587,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -606,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -625,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -644,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -663,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -739,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -758,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -777,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -796,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -815,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -834,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -853,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -872,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -891,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -910,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -929,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -948,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -967,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/all.css",
       "AssetKind": "All",
@@ -986,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -1005,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/brands.css",
       "AssetKind": "All",
@@ -1024,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/brands.min.css",
       "AssetKind": "All",
@@ -1043,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -1062,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -1081,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/regular.css",
       "AssetKind": "All",
@@ -1100,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/regular.min.css",
       "AssetKind": "All",
@@ -1119,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/solid.css",
       "AssetKind": "All",
@@ -1138,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/solid.min.css",
       "AssetKind": "All",
@@ -1157,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -1176,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -1195,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/v4-font-face.css",
       "AssetKind": "All",
@@ -1214,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -1233,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -1252,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -1271,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/v5-font-face.css",
       "AssetKind": "All",
@@ -1290,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -1309,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/all.js",
       "AssetKind": "All",
@@ -1328,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/all.min.js",
       "AssetKind": "All",
@@ -1347,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/brands.js",
       "AssetKind": "All",
@@ -1366,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/brands.min.js",
       "AssetKind": "All",
@@ -1385,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/conflict-detection.js",
       "AssetKind": "All",
@@ -1404,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/conflict-detection.min.js",
       "AssetKind": "All",
@@ -1423,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/fontawesome.js",
       "AssetKind": "All",
@@ -1442,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/fontawesome.min.js",
       "AssetKind": "All",
@@ -1461,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/regular.js",
       "AssetKind": "All",
@@ -1480,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/regular.min.js",
       "AssetKind": "All",
@@ -1499,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/solid.js",
       "AssetKind": "All",
@@ -1518,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/solid.min.js",
       "AssetKind": "All",
@@ -1537,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/v4-shims.js",
       "AssetKind": "All",
@@ -1556,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/js/v4-shims.min.js",
       "AssetKind": "All",
@@ -1575,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/sprites/brands.svg",
       "AssetKind": "All",
@@ -1594,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/sprites/regular.svg",
       "AssetKind": "All",
@@ -1613,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/sprites/solid.svg",
       "AssetKind": "All",
@@ -1632,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1651,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1670,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1689,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1708,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1727,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1746,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -1765,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -1784,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1803,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1822,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1841,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1860,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1879,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1898,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1917,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1936,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1955,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1974,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1993,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Fronent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\wwwroot\\",
       "BasePath": "_content/Fronent",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

@@ -1,0 +1,25 @@
+<div class="modal fade in" tabindex="-1" role="dialog" data-bs-backdrop="false" id="form-modal">
+    <div class="modal-dialog draggable  role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-info">
+                <h5 class="modal-title text-white"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body alert-secondary">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Agrega jQuery UI para mover el modal -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Hacer el modal arrastrable con jQuery UI
+        $('.draggable').draggable({
+            handle: '.modal-header'
+        });
+    });
+</script>

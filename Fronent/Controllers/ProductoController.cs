@@ -9,7 +9,7 @@ namespace Fronent.Controllers
     public class ProductoController : Controller
     {
         private readonly HttpClient httpClient;
-         private readonly INotyfService _notifyService;
+        private readonly INotyfService _notifyService;
 
         public ProductoController(IHttpClientFactory httpClientFactory, INotyfService notifyService)
         {
@@ -40,47 +40,55 @@ namespace Fronent.Controllers
             return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(IFormFile documento, Producto producto)
+      [HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> Create(IFormFile documento, Producto producto)
+{
+    try
+    {
+        // Verificar si los campos obligatorios están completos
+        if (string.IsNullOrWhiteSpace(producto.Name) || string.IsNullOrWhiteSpace(producto.Price) || string.IsNullOrWhiteSpace(producto.Description))
         {
-            try
-            {
-                using (var content = new MultipartFormDataContent())
-                {
-                    
-                    content.Add(new StringContent(producto.Name), "Name");
-                    content.Add(new StringContent(producto.Price.ToString()), "Price");
-                    content.Add(new StringContent(producto.Description), "Description");
-
-                    if (documento != null && documento.Length > 0)
-                    {
-                        var filestreamContent = new StreamContent(documento.OpenReadStream());
-                        filestreamContent.Headers.ContentType = new MediaTypeHeaderValue(documento.ContentType);
-
-                        // Usar el nombre del archivo para el nombre del campo
-                        content.Add(filestreamContent, "File", documento.FileName);
-                    }
-
-                    var respuesta = await httpClient.PostAsync("/api/Producto", content);
-
-                    if (respuesta.IsSuccessStatusCode)
-                    {
-                        _notifyService.Success("Producto creado exitosamente");
-                        return RedirectToAction(nameof(Index));
-                    }
-                    else
-                    {
-                        return View("Error");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                return View("Error");
-            }
+            _notifyService.Warning("Por favor, completa todos los campos.");
+            return RedirectToAction("Index"); 
         }
+
+        using (var content = new MultipartFormDataContent())
+        {
+            content.Add(new StringContent(producto.Name), "Name");
+            content.Add(new StringContent(producto.Price.ToString()), "Price");
+            content.Add(new StringContent(producto.Description), "Description");
+
+            if (documento != null && documento.Length > 0)
+            {
+                var filestreamContent = new StreamContent(documento.OpenReadStream());
+                filestreamContent.Headers.ContentType = new MediaTypeHeaderValue(documento.ContentType);
+
+                content.Add(filestreamContent, "File", documento.FileName);
+            }
+
+            var respuesta = await httpClient.PostAsync("/api/Producto", content);
+
+            if (respuesta.IsSuccessStatusCode)
+            {
+                _notifyService.Success("Producto creado exitosamente");
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                _notifyService.Warning("Hubo un problema al crear el producto. Por favor, intenta nuevamente.");
+            }
+
+            return RedirectToAction("Index");
+        }
+    }
+    catch (Exception ex)
+    {
+        _notifyService.Error("Error interno del servidor. Por favor, contacta al administrador.");
+        Console.WriteLine(ex.ToString());
+        return View("Error");
+    }
+}
 
 
          [HttpGet]
@@ -137,9 +145,10 @@ namespace Fronent.Controllers
                     }
                     else
                     {
-                        _notifyService.Warning("Por favor, completa todos los campos.");
+                        _notifyService.Warning("No se pudo guardar la información del producto");
+                        return RedirectToAction("Index");
                     }
-                    return RedirectToAction("Index");
+                    
                 }
             }
             catch (Exception ex)

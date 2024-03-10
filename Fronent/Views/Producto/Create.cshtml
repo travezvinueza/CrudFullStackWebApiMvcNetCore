@@ -1,5 +1,6 @@
 @{
     ViewData["Title"] = "Create";
+    Layout = null;
 }
 @model Fronent.Models.Producto
 
@@ -38,9 +39,12 @@
                 </div>
 
             </div>
+            
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary btn-sm"><i class="fas fa-save"></i> Guardar</button>
+                <a asp-action="Index" class="btn btn-danger btn-sm"><i class="fas fa-cancel"></i>Cancelar</a>
 
-             <button type="submit" class="btn btn-primary btn-sm"><i class="fas fa-save"></i> Guardar</button>
-            <a asp-action="Index" class="btn btn-danger btn-sm"><i class="fas fa-cancel"></i>Cancelar</a>
+            </div>
 
         </form>
     </div>

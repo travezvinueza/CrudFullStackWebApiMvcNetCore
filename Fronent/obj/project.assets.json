@@ -258,11 +258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\Fronent.csproj",
+      "projectUniqueName": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\Fronent.csproj",
       "projectName": "Fronent",
-      "projectPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\Fronent.csproj",
+      "projectPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\Fronent.csproj",
       "packagesPath": "C:\\Users\\Mauri\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\Fronent\\obj\\",
+      "outputPath": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Fronent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mauri\\AppData\\Roaming\\NuGet\\NuGet.Config"
