@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f7d9TMxfAfvp/xOOA5JSTTvmpEIhAiroF97f4IhiKpU=",
+  "Hash": "vMureiJ8OAnfAS4MyOnzZGmcELwvbO4f6rtO9CDrMQI=",
   "Source": "Backend",
   "BasePath": "_content/Backend",
   "Mode": "Default",
@@ -36,12 +36,12 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\d671594e-2582-4e2c-add7-dfe1b874948b.png"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\Don_Quijote.png",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\descarga.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
-      "RelativePath": "Uploads/Don_Quijote.png",
+      "RelativePath": "Uploads/descarga.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,15 +52,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\Don_Quijote.png"
+      "OriginalItemSpec": "wwwroot\\Uploads\\descarga.jpg"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\Tratado-del-hombre-Rene-Descartes.jpg",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\images.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
-      "RelativePath": "Uploads/Tratado-del-hombre-Rene-Descartes.jpg",
+      "RelativePath": "Uploads/images.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\Tratado-del-hombre-Rene-Descartes.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\images.jpg"
     },
     {
-      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\usuario2.png",
+      "Identity": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\Uploads\\teclado.jpg",
       "SourceId": "Backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\PROYECTOS\\DOTNET\\FullStak\\CrudFullStackWebApiMvcNetCore\\Backend\\wwwroot\\",
       "BasePath": "_content/Backend",
-      "RelativePath": "Uploads/usuario2.png",
+      "RelativePath": "Uploads/teclado.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\usuario2.png"
+      "OriginalItemSpec": "wwwroot\\Uploads\\teclado.jpg"
     }
   ]
 }
